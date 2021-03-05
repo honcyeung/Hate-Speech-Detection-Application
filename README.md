@@ -19,3 +19,5 @@ I use a number of machine learning algorithms to predict the results and compare
   - 1 - offensive language
   - 2 - neither
 - tweet
+
+The algorithm and application is written in python. The application uses the open-source library stremalit. The css file is the code to define some of the appearance of the application.
