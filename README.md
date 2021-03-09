@@ -21,3 +21,9 @@ I use a number of machine learning algorithms to predict the results and compare
 - tweet
 
 The algorithm and application is written in python. The application uses the open-source library stremalit. The css file is the code to define some of the appearance of the application.
+
+The files are:
+- code.py / code.ipynb: they are the same. The main code of the algorithm. The former is for testing the app with visualizations and results hidden. The latter is for visualization and explanations.
+- data_preparation.py / data_preparation.ipynb: they are the same. They organize and clean dataset2 - 5. The former is for running the app and the latter is for better visualization.
+- app.py: the code that runs the app
+- style.css: html code to stylize the web app
