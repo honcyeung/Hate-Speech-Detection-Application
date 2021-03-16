@@ -34,7 +34,7 @@ from sklearn.metrics import confusion_matrix
 
 # read dataset1 csv file
 
-data_tweet = pd.read_csv("Dataset1.csv", sep = ",")
+data_tweet = pd.read_csv("dataset/Dataset1.csv", sep = ",")
 data_tweet = data_tweet[['class', 'tweet']]
 
 #data_tweet.head()
