@@ -7,7 +7,7 @@ import numpy as np
 
 # read file
 
-with open("Dataset2.txt", 'r+') as f:
+with open("dataset/Dataset2.txt", 'r+') as f:
           dataset2 = f.readlines()
 f.close()
 
@@ -55,7 +55,7 @@ hate_speech_words.columns = ['class', 'tweet']
 
 # read the file
 
-with open("Dataset3.txt") as f:
+with open("dataset/Dataset3.txt") as f:
     dataset3 = f.readlines()
 f.close()
 dataset3 = dataset3[8:]
@@ -79,7 +79,7 @@ for i in range(len(fox_comments)):
 
 # read the file
 
-with open("Dataset4.txt") as f:
+with open("dataset/Dataset4.txt") as f:
     microposts = f.readlines()
 f.close()
 
@@ -130,7 +130,7 @@ microposts_final.columns = ['class', 'tweet']
 
 # read the file
 
-dataset5 = pd.read_csv("Dataset5.csv", sep = ",")
+dataset5 = pd.read_csv("dataset/Dataset5.csv", sep = ",")
 dataset5 = dataset5[['text', 'label']]
 
 # create a column of class for the dataset
