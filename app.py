@@ -2,7 +2,7 @@
 import warnings 
 warnings.filterwarnings("ignore")
 import streamlit as st
-from project import clean_data, vectorizer, model_lr
+from code import clean_data, vectorizer, model_lr
 from PIL import Image
 
 # set up the page
