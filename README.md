@@ -1,6 +1,6 @@
 # Hate Speech Detection Application
 
-According to the United Nation, the term hate speech is **understood as any kind of communication in speech, writing or behaviour, that attacks or uses pejorative or discriminatory language with reference to a person or a group on the basis of who they are, in other words, based on their religion, ethnicity, nationality, race, colour, descent, gender or other identity factor.** It is believed that hate speech is strongly associated with actual hate crime. To avoid such crime, we have to detect them before it happens.
+According to the United Nation, the term hate speech is **understood as any kind of communication in speech, writing or behaviour, that attacks or uses pejorative or discriminatory language with reference to a person or a group on the basis of who they are, in other words, based on their religion, ethnicity, nationality, race, colour, descent, gender or other identity factor.** It is believed that hate speech is strongly associated with actual hate crime. To avoid such crime, we have to detect them before it happens. 
 
 Social media is a platform where some people publish their own opinions, some of which may be hate speech or use offensive language. Twitter is one of the most common social media; hence in this project we use tweets to analyze and predict whether they are hate speech, offensive language, or neither of them.
 
@@ -20,10 +20,11 @@ I use a number of machine learning algorithms to predict the results and compare
   - 2 - neither
 - tweet
 
-The algorithm and application is written in python. The application uses the open-source library stremalit. The css file is the code to define some of the appearance of the application.
+The algorithm and application is written in python. The application uses the open-source library stremalit. The css file is the code to define some of the appearance of the application. The deployed application is: https://share.streamlit.io/honcyeung/hate-speech-detection-application/main/app.py
 
 The files are:
 - code.py / code.ipynb: they are the same. The main code of the algorithm. The former is for testing the app with visualizations and results hidden. The latter is for visualization and explanations.
 - data_preparation.py / data_preparation.ipynb: they are the same. They organize and clean dataset2 - 5. The former is for running the app and the latter is for better visualization.
 - app.py: the code that runs the app
 - style.css: html code to stylize the web app
+- -requirements.txt: for the deployment of the application
